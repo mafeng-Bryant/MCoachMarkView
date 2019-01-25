@@ -1,0 +1,30 @@
+{
+  "name": "MCoachMarkView",
+  "version": "1.0.0",
+  "summary": "MCoachMarkView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mafeng-Bryant/MCoachMarkView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1499603656@qq.com": "feng.ma@patpat.com"
+  },
+  "source": {
+    "git": "https://github.com/mafeng-Bryant/MCoachMarkView.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MCoachMarkView/Classes/**/*",
+  "dependencies": {
+    "MFStoreHelperKit": [
+      "~> 1.0.3"
+    ],
+    "MExtensions": [
+      "~> 2.0.5"
+    ]
+  }
+}

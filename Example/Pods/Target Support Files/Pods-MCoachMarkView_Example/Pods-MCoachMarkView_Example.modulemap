@@ -1,0 +1,6 @@
+framework module Pods_MCoachMarkView_Example {
+  umbrella header "Pods-MCoachMarkView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

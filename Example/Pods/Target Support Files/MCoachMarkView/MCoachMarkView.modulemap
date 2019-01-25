@@ -1,0 +1,6 @@
+framework module MCoachMarkView {
+  umbrella header "MCoachMarkView-umbrella.h"
+
+  export *
+  module * { export * }
+}

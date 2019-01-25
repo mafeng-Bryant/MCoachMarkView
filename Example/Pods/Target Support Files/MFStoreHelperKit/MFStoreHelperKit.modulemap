@@ -1,0 +1,6 @@
+framework module MFStoreHelperKit {
+  umbrella header "MFStoreHelperKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

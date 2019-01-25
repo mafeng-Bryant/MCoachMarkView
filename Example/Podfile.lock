@@ -1,0 +1,50 @@
+PODS:
+  - MAESCrypt (1.0.0)
+  - MCoachMarkView (1.0.0):
+    - MExtensions (~> 2.0.5)
+    - MFStoreHelperKit (~> 1.0.3)
+  - MExtensions (2.0.5):
+    - MAESCrypt (~> 1.0.0)
+    - MLocalizedStringKit (~> 1.0.0)
+    - MUIFont (~> 1.0.0)
+    - SDWebImage
+  - MFStoreHelperKit (1.0.3):
+    - SFHFKeychainUtils (~> 1.0.0)
+  - MLocalizedStringKit (1.0.0)
+  - MUIFont (1.0.0)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - SFHFKeychainUtils (1.0.0)
+
+DEPENDENCIES:
+  - MCoachMarkView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+    - SFHFKeychainUtils
+  https://github.com/mafeng-Bryant/Specs:
+    - MAESCrypt
+    - MExtensions
+    - MFStoreHelperKit
+    - MLocalizedStringKit
+    - MUIFont
+
+EXTERNAL SOURCES:
+  MCoachMarkView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MAESCrypt: baf33916e9cd34febc561d0f1b6c639d719175e2
+  MCoachMarkView: e55dd9c159f0fe81035310eac4ccd617bed81bf3
+  MExtensions: 222a94b1eb52dbdaecc61a754daa3e9f631a003f
+  MFStoreHelperKit: de3f92a0cf66ae8ccaa2a50c3e2b46898666e52a
+  MLocalizedStringKit: 6a7a076c228d94347ab9f37794e028e62591028c
+  MUIFont: 52cc9d5e4e147dfb10adcb4421363a2b17454fd4
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  SFHFKeychainUtils: a4e064aedb7a5ada3d5219152d45f53cebc16507
+
+PODFILE CHECKSUM: 711e8c9774aeda21d743de1d4821412d1a54ba61
+
+COCOAPODS: 1.5.3
